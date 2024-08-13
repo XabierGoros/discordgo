@@ -177,7 +177,7 @@ type Application struct {
 	PrimarySKUID           string                                                           `json:"primary_sku_id"`
 	Slug                   string                                                           `json:"slug"`
 	CoverImage             string                                                           `json:"cover_image"`
-	Flags                  int                                                              `json:"flags,omitempty"`
+	Flags                  string                                                           `json:"flags,omitempty"`
 	IntegrationTypesConfig map[ApplicationIntegrationType]*ApplicationIntegrationTypeConfig `json:"integration_types,omitempty"`
 }
 
